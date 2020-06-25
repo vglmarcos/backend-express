@@ -9,7 +9,7 @@ const app = express();
 app.set('PORT', process.env.PORT || 4000);
 app.set('KEY', process.env.KEY);
 
-// midlewares
+// middlewares
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
